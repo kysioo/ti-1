@@ -61,3 +61,6 @@ Pull request według schematu:
 6. [La Bamba](https://github.com/mlabuda2)
   - [26 - Stripe Follow Along Dropdown](https://github.com/mlabuda2/StripeFollowAlongDropdown)
   - [21 - Geolocation based Speedometer and Compass](https://github.com/mlabuda2/GeolocationbasedSpeedometerandCompass)
+  
+ 1.Ostatni(https://github.com/kysioo)
+  -[28 - Video Speed Controller](https://github.com/wesbos/JavaScript30/tree/master/28%20-%20Video%20Speed%20Controller)
