@@ -20,7 +20,7 @@ Michael Hartl, [Learn Enough Git to Be Dangerous](https://www.learnenough.com/gi
 6. [Januszek, Wojciech](https://github.com/wojsamjan/myGulp501). [Mapa](https://wojsamjan.github.io/myGulp501/cern.html), [GeoJSON](https://wojsamjan.github.io/myGulp501/geojson.html), [MathJax](https://wojsamjan.github.io/myGulp501/mathjax.html) 26.03
 6. [Kamiński, Mateusz](https://github.com/mattiasquat/TI). [Mapa](https://mattiasquat.github.io/TI/docs/), [GeoJSON](https://mattiasquat.github.io/TI/docs/leaflet.html) 26.03
 7. [Labuda, Mateusz](https://github.com/mlabuda2/ti_2017). [Mapka](https://mlabuda2.github.io/ti_2017/googlemap), [GeoJSON](https://mlabuda2.github.io/ti_2017/geojson.html), [Responsively](https://mlabuda2.github.io/ti_2017/responsivesite.html)
-8. Lejk, Krzysztof 26.02 26.03
+8. [Lejk, Krzysztof](https://github.com/kysioo/Ti) 26.02 26.03
 9. [Lepieszkiewicz Bartosz](https://github.com/lepsztyk/my_gulp_101). [Mapa](https://lepsztyk.github.io/my_gulp/), [geoJSON](https://lepsztyk.github.io/geojson/)
 9. [Litkowski,Kamil](https://github.com/klitkowski/TI). [Mapa](https://klitkowski.github.io/TI/app/mapa.html) 26.02
 9. Madej, Martin 05.03 26.03
@@ -61,3 +61,6 @@ Pull request według schematu:
 6. [La Bamba](https://github.com/mlabuda2)
   - [26 - Stripe Follow Along Dropdown](https://github.com/mlabuda2/StripeFollowAlongDropdown)
   - [21 - Geolocation based Speedometer and Compass](https://github.com/mlabuda2/GeolocationbasedSpeedometerandCompass)
+  +  
++ 1.Ostatni(https://github.com/kysioo)
++  -[28 - Video Speed Controller](https://github.com/wesbos/JavaScript30/tree/master/28%20-%20Video%20Speed%20Controller)
