@@ -20,7 +20,7 @@ Michael Hartl, [Learn Enough Git to Be Dangerous](https://www.learnenough.com/gi
 6. [Januszek, Wojciech](https://github.com/wojsamjan/myGulp501). [Mapa](https://wojsamjan.github.io/myGulp501/cern.html), [GeoJSON](https://wojsamjan.github.io/myGulp501/geojson.html), [MathJax](https://wojsamjan.github.io/myGulp501/mathjax.html) 26.03
 6. [Kamiński, Mateusz](https://github.com/mattiasquat/TI). [Mapa](https://mattiasquat.github.io/TI/map.html), [GeoJSON](https://mattiasquat.github.io/TI/leaflet.html) [Responsively](https://mattiasquat.github.io/TI/responsywnosc.html) 26.03
 7. [Labuda, Mateusz](https://github.com/mlabuda2/ti_2017). [Mapka](https://mlabuda2.github.io/ti_2017/googlemap), [GeoJSON](https://mlabuda2.github.io/ti_2017/geojson.html), [Responsively](https://mlabuda2.github.io/ti_2017/responsivesite.html)
-8. Lejk, Krzysztof 26.02 26.03
+8. [Lejk, Krzysztof](https://github.com/kysioo/zadania) [cern](https://kysioo.github.io/cern) 26.02 26.03
 9. [Lepieszkiewicz Bartosz](https://github.com/lepsztyk/my_gulp_101). [Mapa](https://lepsztyk.github.io/my_gulp/), [geoJSON](https://lepsztyk.github.io/geojson/)
 9. [Litkowski,Kamil](https://github.com/klitkowski/TI). [Mapa](https://klitkowski.github.io/TI/app/mapa.html) 26.02
 9. [Madej, Martin](https://github.com/Pes2009/Pes2009.github.io) 05.03 26.03
