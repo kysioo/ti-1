@@ -74,3 +74,7 @@ Pull request według schematu:
 1. [La Bamba](https://github.com/mlabuda2)
   - [26 - Stripe Follow Along Dropdown](https://github.com/mlabuda2/StripeFollowAlongDropdown)
   - [21 - Geolocation based Speedometer and Compass](https://github.com/mlabuda2/GeolocationbasedSpeedometerandCompass)
+  
+  1.[supersprawa](https://github.com/kysioo)
+  -[01 - JavaScript Drum Kit](https://github.com/wesbos/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)
+  -[02 - JS and CSS Clock](https://github.com/wesbos/JavaScript30/tree/master/02%20-%20JS%20and%20CSS%20Clock)
