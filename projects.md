@@ -69,7 +69,7 @@ Pull request według schematu:
 
 1.[Supersprawa](https://github.com/kysioo)
   - [1 - JavaScript Drum Kit](https://github.com/wesbos/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)
-  - 2 - **JS and CSS Clock** (wcześniej zarezerwowany przez Mr. Bean)
+  - [19 - Webcam Fun] (https://github.com/wesbos/JavaScript30/tree/master/19%20-%20Webcam%20Fun)
 
 
 11.06.2017, aula 1, godz. 8:30
