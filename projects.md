@@ -88,7 +88,7 @@ Pull request według schematu:
 
 1. [La Bamba](https://github.com/mlabuda2)
   - [26 - Stripe Follow Along Dropdown](https://github.com/mlabuda2/StripeFollowAlongDropdown)
-  - [21 - Geolocation based Speedometer and Compass](https://github.com/mlabuda2/GeolocationbasedSpeedometerandCompass)
+  - [28 - Video Speed Controller](https://github.com/Pes2009/Geolocation)
 
 
 ### Poprawki, 04.09.2017
