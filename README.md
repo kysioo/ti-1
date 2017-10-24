@@ -9,6 +9,9 @@ na [GitHub Pages](https://pages.github.com) lub
 na [Firebase](https://www.firebase.com) albo na innym darmowym serwisie,
 na przykład na jednym z [services with great free tiers for developers on a budget](https://github.com/255kb/stack-on-a-budget).
 
+* [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist) –
+  for modern websites and meticulous developers.
+
 Zapoznać się z notacjami Markdown:
 
 * [GitHub Flavored Markdown](http://guides.github.com/overviews/mastering-markdown/),
