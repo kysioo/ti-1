@@ -4,7 +4,7 @@
 >
 > — William Feather
 
-* [Learn web development](https://developer.mozilla.org/en-US/docs/Learn) – MDN web development
+* [Learn web development](https://developer.mozilla.org/en-US/docs/Learn) – MDN Web Docs
 * [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist) –
   for modern websites and meticulous developers.
 
