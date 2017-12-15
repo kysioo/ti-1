@@ -6,7 +6,7 @@
 
 * [Learn web development](https://developer.mozilla.org/en-US/docs/Learn) – MDN Web Docs
 * [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist) –
-  for modern websites and meticulous developers.
+  for modern websites and meticulous developers
 
 Zapoznać się z notacjami Markdown:
 
