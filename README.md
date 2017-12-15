@@ -1,14 +1,10 @@
-## Techniki Internetowe, 2016/2017
+## Techniki Internetowe, 2017/18
 
 > *Uważaj na człowieka, którego nie interesują szczegóły.*
 >
 > — William Feather
 
-Kod z rozwiązaniami zadań / gotowe projekty należy umieścić/wdrożyć
-na [GitHub Pages](https://pages.github.com) lub
-na [Firebase](https://www.firebase.com) albo na innym darmowym serwisie,
-na przykład na jednym z [services with great free tiers for developers on a budget](https://github.com/255kb/stack-on-a-budget).
-
+* [Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
 * [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist) –
   for modern websites and meticulous developers.
 
@@ -30,7 +26,7 @@ i AsciiDoc:
 W repozytoriach z rozwiązaniami zadań, w pliku _README.md_ (Markdown)
 lub _README.adoc_ (AsciiDoctor) krótko opisać rozwiązanie każdego zadania.
 
-
+<!--
 ### Zaliczenie
 
 1\. [deadline 05.03.2017]
@@ -121,9 +117,9 @@ zob. też [Grid Garden](http://cssgridgarden.com/).
 Przykładowe repozytorium z GitHub Pages + MathJax –
 [RedQueen: An Online Algorithm for Smart Broadcasting in Social Networks](http://learning.mpi-sws.org/redqueen/).
 W stopce u dołu strony linki do repozytorium z kodem źródłowym.
+-->
 
 <!--
-
 [Carnegie, Mellon](https://github.com/brendano/ark-tweet-nlp/). [tChat](http://www.cs.cmu.edu/~ark/TweetNLP/).
 
 5\. [GitHub Pages](https://pages.github.com) |
@@ -144,34 +140,17 @@ jeden z frameworków wymienionych poniżej:
 
 -->
 
-<!-- [Repo z rozwiązaniami](https://github.com/wesbos/JavaScript30) -->
-
-
+<!--
 ### Egzamin (projekty zespołowe)
-
-**NEW!** Prezentacje swoich rozwiązań: **11.06.2017**, g. 9:45, aula 1.
 
 Zrealizować kilka projektów ze strony
 [30 Day Vanilla JS Coding Challenge](https://javascript30.com);
 [repo z _starter files_](https://github.com/wesbos/JavaScript30).
 lub coś z [WebAssembly](http://webassembly.org/), zob. np.
 [WebAssembly 101: a developer's first steps](http://blog.openbloc.fr/webassembly-first-steps/)
-
-Podstawy język JavaScript:
-
-- Marijn Haverbeke.
-  [Eloquent JavaScript](http://eloquentjavascript.net/)
-- Kyle Simpson.
-  [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS);
-  [polskie tłumaczenia](http://helion.pl/search?szukaj=Simpson)
-- [ES6 Overview in 350 Bullet PointsES6 Overview in 350 Bullet Points](https://github.com/bevacqua/es6/blob/master/readme.markdown)
-
-----
-
-* [100+ Free resources for learning Full Stack Web Development](https://github.com/bmorelli25/Become-A-Full-Stack-Web-Developer).
+-->
 
 <!--
-
 Przygotować prostą aplikację WWW korzystając
 z frameworka [Meteor](https://www.meteor.com/). Aplikację
 wdrożyć (ang. _deploy_) na zewnętrznym serwerze.
@@ -195,11 +174,13 @@ Użyteczne linki:
 -->
 
 
-## JavaScript 2017 → ∞
+## JavaScript 2018 → ∞
 
-[JavaScript in 2015](http://glenmaddern.com/articles/javascript-in-2015)
-([YouTube](https://www.youtube.com/watch?v=iukBMY4apvI)).
-
+- Marijn Haverbeke.
+  [Eloquent JavaScript](http://eloquentjavascript.net/)
+- Kyle Simpson.
+  [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS);
+  [polskie tłumaczenia](http://helion.pl/search?szukaj=Simpson)
 - Nicholas C. Zakas.
   [Understanding ECMAScript 6](https://leanpub.com/understandinges6/read/)
 - John Resig.
@@ -228,10 +209,3 @@ ES6+
 Small frameworks:
 
 - [Bulma](http://bulma.io/) – Sass based
-
-
-### Różne rzeczy
-
-- [Accelerated Mobile Pages Project](https://www.ampproject.org) – an open source initiative
-  that embodies the vision that publishers can create mobile optimized content once and
-  have it *load instantly everywhere*
