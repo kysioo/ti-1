@@ -1,4 +1,4 @@
-## Techniki Internetowe, 2017/18
+## Techniki Internetowe, 2018
 
 > *Uważaj na człowieka, którego nie interesują szczegóły.*
 >
@@ -8,7 +8,7 @@
 * [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist) –
   for modern websites and meticulous developers
 
-Zapoznać się z notacjami Markdown:
+Zapoznać się z notacją Markdown:
 
 * [GitHub Flavored Markdown](http://guides.github.com/overviews/mastering-markdown/),
   [Mastering Markdown](http://guides.github.com/overviews/mastering-markdown/) i
@@ -24,23 +24,22 @@ i AsciiDoc:
 -->
 
 W repozytoriach z rozwiązaniami zadań, w pliku _README.md_ (Markdown)
-lub _README.adoc_ (AsciiDoctor) krótko opisać rozwiązanie każdego zadania.
+i _README.adoc_ (AsciiDoctor) krótko opisać rozwiązanie każdego zadania.
 
-<!--
+
 ### Zaliczenie
 
-1\. [deadline 05.03.2017]
+1\. [deadline 4/5.03.2017]
 
-* Utworzyć repozytorium na rozwiązania zadań. Link do repozytorium oraz
-  link do stron HTML z rozwiązaniami wpisać w pliku [projects.md](projects.md).
 * Zapoznać się z programem [gulp](http://gulpjs.com) ułatwiającym pracę
-  z projektami HTML+CSS+JavaScript; zob. też
-  [A Comprehensive Introduction to Webpack, the Module Bundler](http://www.theodo.fr/blog/2016/07/a-comprehensive-introduction-to-webpack-the-module-bundler/)
+  z projektami HTML+CSS+JavaScript.
 * Do kodu [pierwszej strony WWW](http://info.cern.ch/hypertext/WWW/TheProject.html)
   dodać mapkę okolic CERN. Użyć jednego z komponetów webowych
   [GoogleWebComponents](https://www.webcomponents.org/author/GoogleWebComponents).
   Proces dodawania mapki zautomatyzować za pomocą programu _gulp_;
   zob. [Mapping geoJSON files on GitHub](https://help.github.com/articles/mapping-geojson-files-on-github).
+
+Livereload z Browsersync.
 
 * Do pliku [Gulpfile.js](https://github.com/h5c3j/my_gulp_101/blob/master/gulpfile.js)
   dodać nowe zadanie (_task_) uruchamiające lokalny serwer www z **livereload**.
@@ -51,6 +50,7 @@ lub _README.adoc_ (AsciiDoctor) krótko opisać rozwiązanie każdego zadania.
   i [Using ES6 with gulp](https://markgoodyear.com/2015/06/using-es6-with-gulp/).
 
 
+<!--
 2\. [deadline 22.03.2017]
 
 Przejrzeć dokumentację [_GeoJSON_](http://geojson.org/). Napisać
