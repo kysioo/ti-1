@@ -27,9 +27,9 @@ W repozytoriach z rozwiązaniami zadań, w pliku _README.md_ (Markdown)
 i _README.adoc_ (AsciiDoctor) krótko opisać rozwiązanie każdego zadania.
 
 
-### Zaliczenie
+### Zadania na zaliczenie
 
-1\. [deadline 16.03.2017]
+#### 1\. [deadline 16.03.2017]
 
 1. Zapoznać się z programem [gulp](http://gulpjs.com) ułatwiającym pracę
   z projektami HTML+CSS+JavaScript.
@@ -61,6 +61,9 @@ Przykładowa lista rzeczy poprawiających funkcjonalność _gulpfile.js_:
 - [ ] [delete generated folders](https://github.com/gulpjs/gulp/blob/master/docs/recipes/delete-files-folder.md)
 - [ ] [gulp-markdown](https://www.npmjs.com/package/gulp-markdown)
 - [ ] [gulp-asciidoctor](https://github.com/asciidoctor/gulp-asciidoctor)
+
+
+#### 2\. [deadline 22.03.2017] (GeoJSON)
 
 <!--
 2\. [deadline 22.03.2017]
