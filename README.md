@@ -29,26 +29,26 @@ i _README.adoc_ (AsciiDoctor) krótko opisać rozwiązanie każdego zadania.
 
 ### Zaliczenie
 
-1\. [deadline 4/5.03.2017]
+1\. [deadline 16.03.2017]
 
-* Zapoznać się z programem [gulp](http://gulpjs.com) ułatwiającym pracę
+1. Zapoznać się z programem [gulp](http://gulpjs.com) ułatwiającym pracę
   z projektami HTML+CSS+JavaScript.
-* Do kodu [pierwszej strony WWW](http://info.cern.ch/hypertext/WWW/TheProject.html)
-  dodać mapkę okolic CERN. Użyć jednego z komponetów webowych
-  [GoogleWebComponents](https://www.webcomponents.org/author/GoogleWebComponents).
-  Proces dodawania mapki zautomatyzować za pomocą programu _gulp_;
-  zob. [Mapping geoJSON files on GitHub](https://help.github.com/articles/mapping-geojson-files-on-github).
+2. Do kodu [pierwszej strony WWW](http://info.cern.ch/hypertext/WWW/TheProject.html)
+  dodać mapkę okolic CERN. Użyć ostatniej wersji biblioteki
+  [Leaflet](http://leafletjs.com); zob. też
+  [Mapping geoJSON files on GitHub](https://help.github.com/articles/mapping-geojson-files-on-github).
 
-Livereload z Browsersync.
+Livereload z _Browsersync_
 
-* Do pliku [Gulpfile.js](https://github.com/h5c3j/my_gulp_101/blob/master/gulpfile.js)
-  dodać nowe zadanie (_task_) uruchamiające lokalny serwer www z **livereload**.
-  Skorzystać z jednej z wtyczek _gulp_, na przykład
-  [gulp-server-livereload](https://www.npmjs.com/package/gulp-server-livereload);
-  zob. [Mark Goodyear](https://markgoodyear.com/),
-  [Getting started with gulp](https://markgoodyear.com/2014/01/getting-started-with-gulp/)
-  i [Using ES6 with gulp](https://markgoodyear.com/2015/06/using-es6-with-gulp/).
+W pliku [gulpfile.js](https://github.com/h5c3j/my_gulp_101/blob/master/gulpfile.js)
+domyślny _task_ uruchamia tzw. _livereload_ korzystające z
+[Browsersync](https://www.browsersync.io/docs/gulp).
+Plik _gulpfile.js_ zawiera kilka zadań: html, images, sass, lint.
+Ich funkcjonalnośc jest minimalna. Należy uzupełnić ich funkcjonalność.
 
+Zamienić zawartość katalogu [src](https://github.com/h5c3j/my_gulp_101) na swoją.
+Umieścić w niej pliki z punktu 2. powyżej.
+Proces dodawania mapki powinien być zautomatyzowany za pomocą programu _gulp_.
 
 <!--
 2\. [deadline 22.03.2017]
