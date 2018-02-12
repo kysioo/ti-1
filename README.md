@@ -63,7 +63,7 @@ Przykładowa lista rzeczy poprawiających funkcjonalność _gulpfile.js_:
 - [ ] [gulp-asciidoctor](https://github.com/asciidoctor/gulp-asciidoctor)
 
 
-#### 2\. [deadline 22.03.2017] (GeoJSON)
+#### 2\. [deadline 6.04.2017] (GeoJSON)
 
 <!--
 2\. [deadline 22.03.2017]
