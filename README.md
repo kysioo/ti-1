@@ -41,9 +41,9 @@ i _README.adoc_ (AsciiDoctor) krótko opisać rozwiązanie każdego zadania.
 Livereload z _Browsersync_
 
 W pliku [gulpfile.js](https://github.com/h5c3j/my_gulp_101/blob/master/gulpfile.js)
-domyślny _task_ uruchamia tzw. _livereload_ korzystające z
+domyślne zadanie (ang. _task_) uruchamia tzw. _livereload_ korzystające z
 [Browsersync](https://www.browsersync.io/docs/gulp).
-Plik _gulpfile.js_ zawiera kilka zadań: html, images, sass, lint.
+Plik _gulpfile.js_ zawiera kilka innych zadań: html, images, sass, lint.
 Ich funkcjonalnośc jest minimalna. Należy uzupełnić ich funkcjonalność.
 
 Zamienić zawartość katalogu [src](https://github.com/h5c3j/my_gulp_101) na swoją.
