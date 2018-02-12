@@ -50,6 +50,18 @@ Zamienić zawartość katalogu [src](https://github.com/h5c3j/my_gulp_101) na sw
 Umieścić w niej pliki z punktu 2. powyżej.
 Proces dodawania mapki powinien być zautomatyzowany za pomocą programu _gulp_.
 
+Przykładowa lista rzeczy poprawiających funkcjonalność _gulpfile.js_:
+
+- [ ] skorzystać z transpliacji: Babel + ES6
+- [ ] concat and minify assets SCSS/CSS
+- [ ] skorzystać z [Webpack](https://webpack.js.org)
+- [ ] images management
+- [ ] szablony HTML
+- [ ] copy only changed files
+- [ ] [delete generated folders](https://github.com/gulpjs/gulp/blob/master/docs/recipes/delete-files-folder.md)
+- [ ] [gulp-markdown](https://www.npmjs.com/package/gulp-markdown)
+- [ ] [gulp-asciidoctor](https://github.com/asciidoctor/gulp-asciidoctor)
+
 <!--
 2\. [deadline 22.03.2017]
 
