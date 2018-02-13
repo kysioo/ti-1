@@ -230,7 +230,7 @@ ES6+
 – [Minimalist examples of ES6 functionalities](https://github.com/hemanth/paws-on-es6)
 
 
-## CSS
+## CSS3 2018 → ∞
 
 - [Less](http://lesscss.org)
 - [Sass](http://sass-lang.com)
