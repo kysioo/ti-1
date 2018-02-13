@@ -4,9 +4,23 @@
 >
 > — William Feather
 
+### Front-End vs. Back-End Developer
+
+* [Back-End Developer Interview Questions](https://github.com/arialdomartini/Back-End-Developer-Interview-Questions).
+* [Front-End Interview Handbook](https://github.com/yangshun/front-end-interview-handbook).
+
+Podstawy.
+
 * [Learn web development](https://developer.mozilla.org/en-US/docs/Learn) – MDN Web Docs
 * [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist) –
   for modern websites and meticulous developers
+
+
+### Jak napisać poprawne README
+
+* [A template to make good README.md](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
+* Uwagi do naszych README: używamy notacji Markdown albo AsciiDoctor,
+  wpisujemy swoje dane (imię + nazwisko, studia zaoczne).
 
 Zapoznać się z notacją Markdown:
 
@@ -19,12 +33,12 @@ i AsciiDoc:
 * [AsciiDoctor](http://asciidoctor.org/) – a fast text processor & publishing
   toolchain for converting AsciiDoc to HTML5, DocBook & more.
 
+W repozytoriach z rozwiązaniami zadań, w pliku _README.md_ (Markdown)
+i _README.adoc_ (AsciiDoctor) krótko opisać rozwiązanie każdego zadania.
+
 <!--
   Przeczytać [AsciiDoc New tables]( http://www.methods.co.nz/asciidoc/newtables.html).
 -->
-
-W repozytoriach z rozwiązaniami zadań, w pliku _README.md_ (Markdown)
-i _README.adoc_ (AsciiDoctor) krótko opisać rozwiązanie każdego zadania.
 
 
 ### Zadania na zaliczenie
