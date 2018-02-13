@@ -4,16 +4,16 @@
 >
 > — William Feather
 
-### Front-End vs. Back-End Developer
+### Front-End vs. Back-End Development
 
 * [Back-End Developer Interview Questions](https://github.com/arialdomartini/Back-End-Developer-Interview-Questions).
 * [Front-End Interview Handbook](https://github.com/yangshun/front-end-interview-handbook).
 
-Podstawy.
+Front-End – podstawy:
 
-* [Learn web development](https://developer.mozilla.org/en-US/docs/Learn) – MDN Web Docs
+* [Learn web development](https://developer.mozilla.org/en-US/docs/Learn) – MDN Web Docs.
 * [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist) –
-  for modern websites and meticulous developers
+  for modern websites and meticulous developers.
 
 
 ### Jak napisać poprawne README
