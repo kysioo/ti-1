@@ -43,7 +43,7 @@ i _README.adoc_ (AsciiDoctor) krótko opisać rozwiązanie każdego zadania.
 ### Wykłady
 
 1. [My Gulp 101](https://github.com/h5c3j/my_gulp_101).
-  1. [Modern CSS & JavaScript for Dinosaurs](https://github.com/h5c3j/my_gulp_101/tree/master/static).
+    1. [Modern CSS & JavaScript for Dinosaurs](https://github.com/h5c3j/my_gulp_101/tree/master/static).
 
 
 ### Zadania na zaliczenie
