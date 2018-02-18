@@ -40,6 +40,11 @@ i _README.adoc_ (AsciiDoctor) krótko opisać rozwiązanie każdego zadania.
   Przeczytać [AsciiDoc New tables]( http://www.methods.co.nz/asciidoc/newtables.html).
 -->
 
+### Wykłady
+
+1. https://github.com/h5c3j/my_gulp_101[My Gulp 101].
+    1. [Modern CSS & JavaScript for Dinosaurs](https://github.com/h5c3j/my_gulp_101/tree/master/static)
+
 
 ### Zadania na zaliczenie
 
