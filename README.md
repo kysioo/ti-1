@@ -48,7 +48,7 @@ i _README.adoc_ (AsciiDoctor) krótko opisać rozwiązanie każdego zadania.
 
 ### Zadania na zaliczenie
 
-#### 1\. [deadline 16.03.2017]
+#### 1. [deadline 16.03.2018]
 
 1. Zapoznać się z programem [gulp](http://gulpjs.com) ułatwiającym pracę
   z projektami HTML+CSS+JavaScript.
@@ -82,10 +82,68 @@ Przykładowa lista rzeczy poprawiających funkcjonalność _gulpfile.js_:
 - [ ] [gulp-asciidoctor](https://github.com/asciidoctor/gulp-asciidoctor)
 
 
-#### 2\. [deadline 6.04.2017] (GeoJSON)
+### 2. [deadline 24.03.2018]
+
+Moje portfolio 5 × 6.
+
+* Co to jest portfolio? Przykład [David Cam. Strona Fotografa](https://www.wix.com/website-template/view/html/1264/?siteId=4cc25780-53f1-4094-8612-14e29d393474&metaSiteId=94f3e1f0-4ce3-429c-8aff-0907cf7a9e76&originUrl=https%3A%2F%2Fpl.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fportfolio-cv).
+
+
+### 3. [deadline 14.04.2018]
+
+Przygotować stronę z kilkoma tabelkami.
+
+1. Dodać responsywność do tabelek.
+
+  - Przykłady [Responsive Tables](https://codepen.io/collection/AdGVYP/).
+
+1. Użyć Grid Layout.
+
+  - [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/).
+  - [Grid Garden](http://cssgridgarden.com)
+
+1. Użyć Flexible Box Layout o ile to jest możliwe; jeśli nie – napisać dlaczego.
+
+  - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/),
+  - [Flexbox Froggy](http://flexboxfroggy.com/).
+
+W HTML tabelę budujemy z następujących elementów: *table*, *tr*, *td*,
+*caption*, *thead*, *tbody*, *tfoot*, *colgroup*, *col* (9 znaczników)
+oraz z dwóch atrybutów *colspan* i *rowspan* (2 atrybuty).
+W tabelach należy użyć elementu użyć wszystkich wymienionych
+elementów i atrybutów.
+
+Przeczytać artykuł Matthew Ström’a
+[Design Better Data Tables](https://medium.com/mission-log/design-better-data-tables-430a30a00d8c).
+W swoich tabelkach zastosować się do „3½ simple rules” z tego artykułu.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!--
-2\. [deadline 22.03.2017]
+
+### 4. [deadline]
+
+Responsywne obrazki
+
+  - [Responsive Images Community Group](https://responsiveimages.org).
+
+Przygotować stronę z kilkoma obrazkami następnie dodać responsywność
+do obrazków. Jak responywność wpływa na czas ładowania strony?
+
+
+#### 9. [deadline 6.04.2017] (GeoJSON)
 
 Przejrzeć dokumentację [_GeoJSON_](http://geojson.org/). Napisać
 kilka geojsonów i przetestować je na tej stronie:
@@ -94,34 +152,6 @@ kilka geojsonów i przetestować je na tej stronie:
 Utworzyć stronę z mapką korzystającą biblioteki [Leaflet](http://leafletjs.com/).
 W kodzie mapki użyć następujących [Geometry Objects](http://geojson.org/geojson-spec.html#geometry-objects): _Point_, _LineString_ i _Polygon_.
 
-
-3\. [deadline 22.04.2017]
-
-Responsywne tabele ([Responsive Tables](https://codepen.io/collection/AdGVYP/))
-i responsywne obrazki ([Responsive Images Community Group](https://responsiveimages.org)).
-
-1. Przygotować stronę z kilkoma tabelkami.
-   Następnie dodać responsywność do tabelek.
-2. Przygotować stronę z kilkoma obrazkami następnie dodać
-   responsywność do obrazków. Jak responywność wpływa na czas ładowania
-   strony?
-
-Zamiast tables można użyć CSS Grid Layout ([A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/))
-lub CSS Flexible Box Layout ([A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/),
-[Flexbox Froggy](http://flexboxfroggy.com/)).
-
-Strona powinna korzystać z lokalnych webfont.
-
-Jeśli użyto elementu _table_ to należy użyć wszystkie wymienionych
-poniżej elementy i atrybuty.
-
-* W HTML tabelę budujemy z następujących elementów: *table*, *tr*, *td*,
-  *caption*, *thead*, *tbody*, *tfoot*, *colgroup*, *col* (9 znaczników)
-  oraz z dwóch atrybutów *colspan* i *rowspan* (2 atrybuty).
-
-* Przeczytać artykuł Matthew Ström’a
-[Design Better Data Tables](https://medium.com/mission-log/design-better-data-tables-430a30a00d8c).
-W swoich tabelkach zastosować się do „3½ simple rules” z tego artykułu.
 * Przeczytać rozdział [Websites. Abandon five obsolete habits](http://practicaltypography.com/websites.html)
   z książki M. Butterick’a [Practical Typography](http://practicaltypography.com);
   zob. też [Google Fonts](https://fonts.google.com/?subset=latin-ext).
