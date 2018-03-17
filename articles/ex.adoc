@@ -1,0 +1,23 @@
+# Examples
+:source-highlighter: pygments
+:pygments-style: manni
+:icons: font
+:figure-caption!:
+
+Smashing Magazine:
+
+1. https://www.smashingmagazine.com/author/vitaly-friedman[Vitaly Friedman]
+
+
+## CSS
+
+1. Moje portfolio na siatce rows × columns = 6 × 5.
+1. HTML table: hover jednocześnie row i column.
+1. Flexible fonts.
+1. Broken images.
+
+Details:
+
+1. https://www.wix.com/website-template/view/html/1264/?siteId=4cc25780-53f1-4094-8612-14e29d393474&metaSiteId=94f3e1f0-4ce3-429c-8aff-0907cf7a9e76&originUrl=https%3A%2F%2Fpl.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fportfolio-cv[David Cam] – fotograf.
+  Użyć https://www.w3.org/TR/css-grid-2/[CSS Grid Layout Module Level 2]
+  https://www.w3.org/TR/css-flexbox-1[CSS Flexible Box Layout Module Level 1].
