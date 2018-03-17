@@ -110,8 +110,7 @@ Przygotować stronę z kilkoma tabelkami.
 W HTML tabelę budujemy z następujących elementów: *table*, *tr*, *td*,
 *caption*, *thead*, *tbody*, *tfoot*, *colgroup*, *col* (9 znaczników)
 oraz z dwóch atrybutów *colspan* i *rowspan* (2 atrybuty).
-W tabelach należy użyć elementu użyć wszystkich wymienionych
-elementów i atrybutów.
+W tabelach należy użyć **wszystkich** wymienionych elementów i atrybutów.
 
 Przeczytać artykuł Matthew Ström’a
 [Design Better Data Tables](https://medium.com/mission-log/design-better-data-tables-430a30a00d8c).
