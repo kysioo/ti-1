@@ -95,7 +95,7 @@ Przygotować stronę z kilkoma tabelkami.
 
 1. Dodać responsywność do tabelek.
 
-    - Przykłady [Responsive Tables](https://codepen.io/collection/AdGVYP/).
+    - [Responsive Tables](https://codepen.io/collection/AdGVYP/).
 
 1. Użyć Grid Layout.
 
