@@ -95,17 +95,17 @@ Przygotować stronę z kilkoma tabelkami.
 
 1. Dodać responsywność do tabelek.
 
-  - Przykłady [Responsive Tables](https://codepen.io/collection/AdGVYP/).
+    - Przykłady [Responsive Tables](https://codepen.io/collection/AdGVYP/).
 
 1. Użyć Grid Layout.
 
-  - [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/).
-  - [Grid Garden](http://cssgridgarden.com)
+    - [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/).
+    - [Grid Garden](http://cssgridgarden.com)
 
 1. Użyć Flexible Box Layout o ile to jest możliwe; jeśli nie – napisać dlaczego.
 
-  - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/),
-  - [Flexbox Froggy](http://flexboxfroggy.com/).
+    - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/),
+    - [Flexbox Froggy](http://flexboxfroggy.com/).
 
 W HTML tabelę budujemy z następujących elementów: *table*, *tr*, *td*,
 *caption*, *thead*, *tbody*, *tfoot*, *colgroup*, *col* (9 znaczników)
@@ -116,20 +116,6 @@ elementów i atrybutów.
 Przeczytać artykuł Matthew Ström’a
 [Design Better Data Tables](https://medium.com/mission-log/design-better-data-tables-430a30a00d8c).
 W swoich tabelkach zastosować się do „3½ simple rules” z tego artykułu.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!--
 
