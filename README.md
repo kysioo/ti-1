@@ -104,7 +104,7 @@ Przygotować stronę z kilkoma tabelkami.
 
 1. O ile jest to możliwe użyć Flexible Box Layout; jeśli nie – napisać dlaczego.
 
-    - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/),
+    - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
     - [Flexbox Froggy](http://flexboxfroggy.com/).
 
 W HTML tabelę budujemy z następujących elementów: *table*, *tr*, *td*,
