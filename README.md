@@ -102,7 +102,7 @@ Przygotować stronę z kilkoma tabelkami.
     - [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/).
     - [Grid Garden](http://cssgridgarden.com)
 
-1. Użyć Flexible Box Layout o ile to jest możliwe; jeśli nie – napisać dlaczego.
+1. O ile jest to możliwe użyć Flexible Box Layout; jeśli nie – napisać dlaczego.
 
     - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/),
     - [Flexbox Froggy](http://flexboxfroggy.com/).
