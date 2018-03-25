@@ -26,6 +26,9 @@ Details:
 
 ## CSS Pranks
 
+https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha/related?hl=en[custom.css] –
+Chrome extension.
+
 [source,css]
 .1
 ----
@@ -42,7 +45,7 @@ html, body {
 }
 ----
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/%40keyframes[@keyframes]
+https://developer.mozilla.org/en-US/docs/Web/CSS/%40keyframes[@keyframes].
 [source,css]
 .2
 ----
