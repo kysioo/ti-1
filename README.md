@@ -116,13 +116,13 @@ Przeczytać artykuł Matthew Ström’a
 [Design Better Data Tables](https://medium.com/mission-log/design-better-data-tables-430a30a00d8c).
 W swoich tabelkach zastosować się do „3½ simple rules” z tego artykułu.
 
+
+### Inspiracje (projekt zespołowy) [deadline 14.04.2018]
+
 > [presentations/projects/solutions needs] <br>
 > … words, sentences & clarity, honesty
 >
 > [Joseph Blitzstein](https://youtu.be/dzFf3r1yph8) na Think Big 4.
-
-
-### Inspiracje (projekt zespołowy) [deadline 14.04.2018]
 
 Przygotować projekt inspirując się projektami ze strony
 [30 Day Vanilla JS Coding Challenge](https://javascript30.com).
