@@ -117,7 +117,7 @@ Przeczytać artykuł Matthew Ström’a
 W swoich tabelkach zastosować się do „3½ simple rules” z tego artykułu.
 
 
-### Inspiracje (projekt zespołowy) [deadline 12.05.2018]
+### JavaScriptowe inspiracje [deadline 12.05.2018, projekt zespołowy]
 
 > [presentations/projects/solutions needs] <br>
 > … words, sentences & clarity, honesty
