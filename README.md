@@ -128,9 +128,7 @@ Przygotować projekt inspirując się projektami ze strony
 
 * Link do [repozytorium z _starter files_](https://github.com/wesbos/JavaScript30).
 
-
 <!--
-
 ### 4. [deadline]
 
 Responsywne obrazki
