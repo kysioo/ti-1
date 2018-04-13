@@ -116,6 +116,20 @@ Przeczytać artykuł Matthew Ström’a
 [Design Better Data Tables](https://medium.com/mission-log/design-better-data-tables-430a30a00d8c).
 W swoich tabelkach zastosować się do „3½ simple rules” z tego artykułu.
 
+> [presentations/projects/solutions needs] <br>
+> … words, sentences & clarity, honesty
+>
+> [Joseph Blitzstein](https://youtu.be/dzFf3r1yph8) na Think Big 4.
+
+
+### Inspiracje (projekt zespołowy) [deadline 14.04.2018]
+
+Przygotować projekt inspirując się projektami ze strony
+[30 Day Vanilla JS Coding Challenge](https://javascript30.com).
+
+* Link do [repozytorium z _starter files_](https://github.com/wesbos/JavaScript30).
+
+
 <!--
 
 ### 4. [deadline]
@@ -149,11 +163,6 @@ W kodzie mapki użyć następujących [Geometry Objects](http://geojson.org/geoj
   może ułatwić przygotowanie prototypu strony z responsywnymi obrazkami
 
 ----
-
-> [presentations/projects/solutions needs] <br>
-> … words, sentences & clarity, honesty
->
-> [Joseph Blitzstein](https://youtu.be/dzFf3r1yph8) na Think Big 4.
 
 4\. [deadline 06.05.2017]
 
@@ -190,36 +199,13 @@ jeden z frameworków wymienionych poniżej:
 -->
 
 <!--
-### Egzamin (projekty zespołowe)
+#### Inspiracje [WebAssembly](http://webassembly.org/)
 
-Zrealizować kilka projektów ze strony
-[30 Day Vanilla JS Coding Challenge](https://javascript30.com);
-[repo z _starter files_](https://github.com/wesbos/JavaScript30).
-lub coś z [WebAssembly](http://webassembly.org/), zob. np.
-[WebAssembly 101: a developer's first steps](http://blog.openbloc.fr/webassembly-first-steps/)
--->
-
-<!--
-Przygotować prostą aplikację WWW korzystając
-z frameworka [Meteor](https://www.meteor.com/). Aplikację
-wdrożyć (ang. _deploy_) na zewnętrznym serwerze.
-
-Zamiast frameworka Meteor można użyć frameworka
-[React](https://facebook.github.io/react/index.html) –
-[Getting Started](https://facebook.github.io/react/docs/getting-started.html),
-[Tutorial](https://facebook.github.io/react/docs/tutorial.html),
-[React for Beginners](https://reactforbeginners.com/).
-
-Użyteczne linki:
-
-- [Meteor](https://www.meteor.com/)
-- David Turnbull.
-  [Your First Meteor Application](http://meteortips.com/book/) –
-  a Complete Beginner’s Guide to the Meteor JavaScript Framework
-- [Discover Meteor](http://book.discovermeteor.com/)
-  ([polskie tłumaczenie](http://pl.discovermeteor.com/))
-- [Creating your first app in React+Meteor](https://www.meteor.com/tutorials/react/creating-an-app)
-
+. [WebAssembly 101: a developer's first steps](http://blog.openbloc.fr/webassembly-first-steps/)
+. [React](https://facebook.github.io/react/index.html) –
+  . [Getting Started](https://facebook.github.io/react/docs/getting-started.html),
+  . [Tutorial](https://facebook.github.io/react/docs/tutorial.html),
+  . [React for Beginners](https://reactforbeginners.com/).
 -->
 
 
