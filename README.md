@@ -128,6 +128,11 @@ Przygotować projekt inspirując się projektami ze strony
 
 * Link do [repozytorium z _starter files_](https://github.com/wesbos/JavaScript30).
 
+Projekt powinien korzystać ze jednego (lub kilku) standardów ze stron W3C.
+
+* [W3C Standards](https://www.w3.org/standards/).
+
+
 <!--
 * [Kanał na Youtube](https://www.youtube.com/playlist?list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH).
 
