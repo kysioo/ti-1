@@ -131,6 +131,7 @@ Przygotować projekt inspirując się projektami ze strony
 Projekt powinien korzystać ze jednego (lub kilku) standardów ze stron W3C.
 
 * [W3C Standards](https://www.w3.org/standards/).
+* [Web technology for developers](https://developer.mozilla.org/en-US/docs/Web).
 
 
 <!--
