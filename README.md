@@ -14,6 +14,7 @@ Front-End – podstawy:
 * [Learn web development](https://developer.mozilla.org/en-US/docs/Learn) – MDN Web Docs.
 * [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist) –
   for modern websites and meticulous developers.
+* [Front-End Developer Handbook 2018](https://frontendmasters.com/books/front-end-handbook/2018/)
 
 
 ### Jak napisać poprawne README
