@@ -44,8 +44,6 @@ npm install babel-preset-env --save-dev
 
 [source,sh]
 ----
-npm install babel-cli --save-dev
-
 mkdir browserify-project
 cd browserify-project
 
@@ -62,6 +60,7 @@ Add _.babelrc_ file:
       }
     }]
   ],
+  "plugins": ["transform-decorators-legacy"],
   "sourceMaps": "inline"
 }
 ----
@@ -69,4 +68,47 @@ Run:
 [source,sh]
 ----
 npm install babel-preset-env --save-dev
+npm install babel-plugin-transform-decorators-legacy --save-dev
+npm install babel-core --save-dev
+npm install babelify --save-dev
+----
+Install _browserify_:
+[source,sh]
+----
+npm install browserify --global
+
+mkdir src dist
+touch src/{index,app}.js
+----
+Add some code to _app.js_ and _index.js_.
+[source,js]
+.app.js
+----
+const MyModule = {
+  check() {
+    console.log('Yaj! Modules are working!');
+  }
+}
+export default MyModule;
+----
+[source,js]
+.index.js
+----
+import MyModule from './app';
+MyModule.check();
+----
+Run _browserify_:
+[source,sh]
+----
+browserify src/index.js --transform babelify --outfile dist/bundle.js --debug
+----
+
+Test:
+[source,sh]
+----
+node dist/bundle.js
+
+# npm install serve --global
+serve
+# open in Chrome +v66; check what was written on console
 ----
