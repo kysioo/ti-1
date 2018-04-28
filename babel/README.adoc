@@ -12,8 +12,6 @@
 
 [source,sh]
 ----
-npm install babel-cli --save-dev
-
 mkdir babel6-project
 cd babel6-project
 
@@ -33,10 +31,39 @@ Add _.babelrc_ file:
   "sourceMaps": "inline"
 }
 ----
+
 Run:
 [source,sh]
 ----
+npm install babel-cli --save-dev
 npm install babel-preset-env --save-dev
+----
+Update "script" attribute in _package.json_:
+[source,json]
+----
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "babel": "babel src -d dist"
+},
+----
+
+Create _src/index.js_ file:
+[source,js]
+----
+let foo = "bar";
+----
+Run:
+[source,sh]
+----
+npm run babel
+----
+Check transpiled file _dist/index.js_:
+[source,js]
+----
+"use strict";
+
+let foo = "bar";
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW...
 ----
 
 
@@ -49,7 +76,8 @@ cd browserify-project
 
 npm init -y
 ----
-Add _.babelrc_ file:
+
+Create _.babelrc_ file:
 [source,json]
 ----
 {
@@ -64,25 +92,29 @@ Add _.babelrc_ file:
   "sourceMaps": "inline"
 }
 ----
-Run:
+
+Install these packages
 [source,sh]
 ----
 npm install babel-preset-env --save-dev
 npm install babel-plugin-transform-decorators-legacy --save-dev
 npm install babel-core --save-dev
 npm install babelify --save-dev
+
+# install globally
+npm install browserify --global
 ----
-Install _browserify_:
+
+Create _src_ and _dist_ directories:
 [source,sh]
 ----
-npm install browserify --global
-
 mkdir src dist
 touch src/{index,app}.js
 ----
-Add some code to _app.js_ and _index.js_.
+
+Add code to _app.js_ and _index.js_.
 [source,js]
-.app.js
+.src/app.js
 ----
 const MyModule = {
   check() {
@@ -92,11 +124,12 @@ const MyModule = {
 export default MyModule;
 ----
 [source,js]
-.index.js
+.src/index.js
 ----
 import MyModule from './app';
 MyModule.check();
 ----
+
 Run _browserify_:
 [source,sh]
 ----
@@ -108,7 +141,7 @@ Test:
 ----
 node dist/bundle.js
 
-# npm install serve --global
+npm install serve --global
 serve
-# open in Chrome +v66; check what was written on console
+# open index.html in Chrome +v66; check what was written on console
 ----
