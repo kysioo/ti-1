@@ -1,0 +1,72 @@
+# Transpiling to ES2016 (ES6)
+
+* http://www.ecma-international.org/memento/TC39.htm[Who decides what gets added?]:
+* https://tc39.github.io/process-document/[Specification stages]:
+** https://github.com/tc39/proposals/blob/master/stage-0-proposals.md[Stage 0 Proposals]
+** https://github.com/tc39/proposals/blob/master/README.md[Stages 1–3 Proposals]
+** https://github.com/tc39/proposals/blob/master/finished-proposals.md[Finished Proposals]
+
+## Babel6
+
+* http://babeljs.io/env[babel-preset-es2015 -> babel-preset-env]
+
+[source,sh]
+----
+npm install babel-cli --save-dev
+
+mkdir babel6-project
+cd babel6-project
+
+npm init -y
+----
+Add _.babelrc_ file:
+[source,json]
+----
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "chrome": "66"
+      }
+    }]
+  ],
+  "sourceMaps": "inline"
+}
+----
+Run:
+[source,sh]
+----
+npm install babel-preset-env --save-dev
+----
+
+
+## Browserify
+
+[source,sh]
+----
+npm install babel-cli --save-dev
+
+mkdir browserify-project
+cd browserify-project
+
+npm init -y
+----
+Add _.babelrc_ file:
+[source,json]
+----
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "chrome": "66"
+      }
+    }]
+  ],
+  "sourceMaps": "inline"
+}
+----
+Run:
+[source,sh]
+----
+npm install babel-preset-env --save-dev
+----
