@@ -124,6 +124,9 @@ W swoich tabelkach zastosować się do „3½ simple rules” z tego artykułu.
 >
 > [Joseph Blitzstein](https://youtu.be/dzFf3r1yph8) na Think Big 4.
 
+* [ECMAScript 5/6/7 compatibility tables](https://kangax.github.io/compat-table/es6/);
+  [GitHub repo](https://github.com/kangax/compat-table).
+
 Przygotować projekt inspirując się projektami ze strony
 [30 Day Vanilla JS Coding Challenge](https://javascript30.com).
 
