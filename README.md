@@ -1,15 +1,29 @@
-## Techniki Internetowe, 2016/2017
+## Techniki Internetowe, 2018
 
 > *Uważaj na człowieka, którego nie interesują szczegóły.*
 >
 > — William Feather
 
-Kod z rozwiązaniami zadań / gotowe projekty należy umieścić/wdrożyć
-na [GitHub Pages](https://pages.github.com) lub
-na [Firebase](https://www.firebase.com) albo na innym darmowym serwisie,
-na przykład na jednym z [services with great free tiers for developers on a budget](https://github.com/255kb/stack-on-a-budget).
+### Front-End vs. Back-End Development
 
-Zapoznać się z notacjami Markdown:
+* [Back-End Developer Interview Questions](https://github.com/arialdomartini/Back-End-Developer-Interview-Questions).
+* [Front-End Interview Handbook](https://github.com/yangshun/front-end-interview-handbook).
+
+Front-End – podstawy:
+
+* [Learn web development](https://developer.mozilla.org/en-US/docs/Learn) – MDN Web Docs.
+* [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist) –
+  for modern websites and meticulous developers.
+* [Front-End Developer Handbook 2018](https://frontendmasters.com/books/front-end-handbook/2018/)
+
+
+### Jak napisać poprawne README
+
+* [A template to make good README.md](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
+* Uwagi do naszych README: używamy notacji Markdown albo AsciiDoctor,
+  wpisujemy swoje dane (imię + nazwisko, studia zaoczne).
+
+Zapoznać się z notacją Markdown:
 
 * [GitHub Flavored Markdown](http://guides.github.com/overviews/mastering-markdown/),
   [Mastering Markdown](http://guides.github.com/overviews/mastering-markdown/) i
@@ -20,38 +34,125 @@ i AsciiDoc:
 * [AsciiDoctor](http://asciidoctor.org/) – a fast text processor & publishing
   toolchain for converting AsciiDoc to HTML5, DocBook & more.
 
+W repozytoriach z rozwiązaniami zadań, w pliku _README.md_ (Markdown)
+i _README.adoc_ (AsciiDoctor) krótko opisać rozwiązanie każdego zadania.
+
 <!--
   Przeczytać [AsciiDoc New tables]( http://www.methods.co.nz/asciidoc/newtables.html).
 -->
 
-W repozytoriach z rozwiązaniami zadań, w pliku _README.md_ (Markdown)
-lub _README.adoc_ (AsciiDoctor) krótko opisać rozwiązanie każdego zadania.
+### Wykłady
+
+1. [My Gulp 101](https://github.com/h5c3j/my_gulp_101).
+    1. [Modern CSS & JavaScript for Dinosaurs](https://github.com/h5c3j/my_gulp_101/tree/master/static).
 
 
-### Zaliczenie
+### Zadania na zaliczenie
 
-1\. [deadline 05.03.2017]
+#### 1. [deadline 16.03.2018]
 
-* Utworzyć repozytorium na rozwiązania zadań. Link do repozytorium oraz
-  link do stron HTML z rozwiązaniami wpisać w pliku [projects.md](projects.md).
-* Zapoznać się z programem [gulp](http://gulpjs.com) ułatwiającym pracę
+1. Zapoznać się z programem [gulp](http://gulpjs.com) ułatwiającym pracę
   z projektami HTML+CSS+JavaScript.
-* Do kodu [pierwszej strony WWW](http://info.cern.ch/hypertext/WWW/TheProject.html)
-  dodać mapkę okolic CERN. Użyć jednego z komponetów webowych
-  [GoogleWebComponents](https://www.webcomponents.org/author/GoogleWebComponents).
-  Proces dodawania mapki zautomatyzować za pomocą programu _gulp_;
-  zob. [Mapping geoJSON files on GitHub](https://help.github.com/articles/mapping-geojson-files-on-github).
+2. Do kodu [pierwszej strony WWW](http://info.cern.ch/hypertext/WWW/TheProject.html)
+  dodać mapkę okolic CERN. Użyć ostatniej wersji biblioteki
+  [Leaflet](http://leafletjs.com); zob. też
+  [Mapping geoJSON files on GitHub](https://help.github.com/articles/mapping-geojson-files-on-github).
 
-* Do pliku [Gulpfile.js](https://github.com/h5c3j/my_gulp_101/blob/master/gulpfile.js)
-  dodać nowe zadanie (_task_) uruchamiające lokalny serwer www z **livereload**.
-  Skorzystać z jednej z wtyczek _gulp_, na przykład
-  [gulp-server-livereload](https://www.npmjs.com/package/gulp-server-livereload);
-  zob. [Mark Goodyear](https://markgoodyear.com/),
-  [Getting started with gulp](https://markgoodyear.com/2014/01/getting-started-with-gulp/)
-  i [Using ES6 with gulp](https://markgoodyear.com/2015/06/using-es6-with-gulp/).
+Livereload z _Browsersync_
+
+W pliku [gulpfile.js](https://github.com/h5c3j/my_gulp_101/blob/master/gulpfile.js)
+domyślne zadanie (ang. _task_) uruchamia tzw. _livereload_ korzystające z
+[Browsersync](https://www.browsersync.io/docs/gulp).
+Plik _gulpfile.js_ zawiera kilka innych zadań: html, images, sass, lint.
+Ich funkcjonalnośc jest minimalna. Należy uzupełnić ich funkcjonalność.
+
+Zamienić zawartość katalogu [src](https://github.com/h5c3j/my_gulp_101) na swoją.
+Umieścić w niej pliki z punktu 2. powyżej.
+Proces dodawania mapki powinien być zautomatyzowany za pomocą programu _gulp_.
+
+Przykładowa lista rzeczy poprawiających funkcjonalność _gulpfile.js_:
+
+- [ ] skorzystać z transpliacji: Babel + ES6
+- [ ] concat and minify assets SCSS/CSS
+- [ ] skorzystać z [Webpack](https://webpack.js.org)
+- [ ] images management
+- [ ] szablony HTML
+- [ ] copy only changed files
+- [ ] [delete generated folders](https://github.com/gulpjs/gulp/blob/master/docs/recipes/delete-files-folder.md)
+- [ ] [gulp-markdown](https://www.npmjs.com/package/gulp-markdown)
+- [ ] [gulp-asciidoctor](https://github.com/asciidoctor/gulp-asciidoctor)
 
 
-2\. [deadline 22.03.2017]
+### 2. [deadline 24.03.2018]
+
+Moje portfolio 5 × 6.
+
+* Co to jest portfolio? Przykład [David Cam. Strona Fotografa](https://www.wix.com/website-template/view/html/1264/?siteId=4cc25780-53f1-4094-8612-14e29d393474&metaSiteId=94f3e1f0-4ce3-429c-8aff-0907cf7a9e76&originUrl=https%3A%2F%2Fpl.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fportfolio-cv).
+
+
+### 3. [deadline 14.04.2018]
+
+Przygotować stronę z kilkoma tabelkami.
+
+1. Dodać responsywność do tabelek.
+
+    - [Responsive Tables](https://codepen.io/collection/AdGVYP/).
+
+1. Użyć Grid Layout.
+
+    - [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/).
+    - [Grid Garden](http://cssgridgarden.com)
+
+1. O ile jest to możliwe użyć Flexible Box Layout; jeśli nie – napisać dlaczego.
+
+    - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+    - [Flexbox Froggy](http://flexboxfroggy.com/).
+
+W HTML tabelę budujemy z następujących elementów: *table*, *tr*, *td*,
+*caption*, *thead*, *tbody*, *tfoot*, *colgroup*, *col* (9 znaczników)
+oraz z dwóch atrybutów *colspan* i *rowspan* (2 atrybuty).
+W tabelach należy użyć **wszystkich** wymienionych elementów i atrybutów.
+
+Przeczytać artykuł Matthew Ström’a
+[Design Better Data Tables](https://medium.com/mission-log/design-better-data-tables-430a30a00d8c).
+W swoich tabelkach zastosować się do „3½ simple rules” z tego artykułu.
+
+
+### JavaScriptowe inspiracje [deadline 12.05.2018, projekt zespołowy]
+
+> Presentations & projects & solutions need words, sentences & clarity, honesty.
+>
+> [Joseph Blitzstein](https://youtu.be/dzFf3r1yph8) na Think Big 4.
+
+* [ECMAScript 5/6/7 compatibility tables](https://kangax.github.io/compat-table/es6/);
+  [GitHub repo](https://github.com/kangax/compat-table).
+
+Przygotować projekt inspirując się projektami ze strony
+[30 Day Vanilla JS Coding Challenge](https://javascript30.com).
+
+* Link do [repozytorium z _starter files_](https://github.com/wesbos/JavaScript30).
+
+Projekt powinien korzystać ze jednego (lub kilku) standardów ze stron W3C.
+
+* [W3C Standards](https://www.w3.org/standards/).
+* [Web technology for developers](https://developer.mozilla.org/en-US/docs/Web).
+
+
+<!--
+* [Kanał na Youtube](https://www.youtube.com/playlist?list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH).
+
+
+### 4. [deadline]
+
+Responsywne obrazki
+
+  - [Responsive Images Community Group](https://responsiveimages.org).
+
+Przygotować stronę z kilkoma obrazkami następnie dodać responsywność
+do obrazków. Jak responywność wpływa na czas ładowania strony?
+
+
+#### 9. [deadline 6.04.2017] (GeoJSON)
 
 Przejrzeć dokumentację [_GeoJSON_](http://geojson.org/). Napisać
 kilka geojsonów i przetestować je na tej stronie:
@@ -60,34 +161,6 @@ kilka geojsonów i przetestować je na tej stronie:
 Utworzyć stronę z mapką korzystającą biblioteki [Leaflet](http://leafletjs.com/).
 W kodzie mapki użyć następujących [Geometry Objects](http://geojson.org/geojson-spec.html#geometry-objects): _Point_, _LineString_ i _Polygon_.
 
-
-3\. [deadline 22.04.2017]
-
-Responsywne tabele ([Responsive Tables](https://codepen.io/collection/AdGVYP/))
-i responsywne obrazki ([Responsive Images Community Group](https://responsiveimages.org)).
-
-1. Przygotować stronę z kilkoma tabelkami.
-   Następnie dodać responsywność do tabelek.
-2. Przygotować stronę z kilkoma obrazkami następnie dodać
-   responsywność do obrazków. Jak responywność wpływa na czas ładowania
-   strony?
-
-Zamiast tables można użyć CSS Grid Layout ([A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/))
-lub CSS Flexible Box Layout ([A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/),
-[Flexbox Froggy](http://flexboxfroggy.com/)).
-
-Strona powinna korzystać z lokalnych webfont.
-
-Jeśli użyto elementu _table_ to należy użyć wszystkie wymienionych
-poniżej elementy i atrybuty.
-
-* W HTML tabelę budujemy z następujących elementów: *table*, *tr*, *td*,
-  *caption*, *thead*, *tbody*, *tfoot*, *colgroup*, *col* (9 znaczników)
-  oraz z dwóch atrybutów *colspan* i *rowspan* (2 atrybuty).
-
-* Przeczytać artykuł Matthew Ström’a
-[Design Better Data Tables](https://medium.com/mission-log/design-better-data-tables-430a30a00d8c).
-W swoich tabelkach zastosować się do „3½ simple rules” z tego artykułu.
 * Przeczytać rozdział [Websites. Abandon five obsolete habits](http://practicaltypography.com/websites.html)
   z książki M. Butterick’a [Practical Typography](http://practicaltypography.com);
   zob. też [Google Fonts](https://fonts.google.com/?subset=latin-ext).
@@ -101,11 +174,6 @@ W swoich tabelkach zastosować się do „3½ simple rules” z tego artykułu.
 
 ----
 
-> [presentations/projects/solutions needs] <br>
-> … words, sentences & clarity, honesty
->
-> [Joseph Blitzstein](https://youtu.be/dzFf3r1yph8) na Think Big 4.
-
 4\. [deadline 06.05.2017]
 
 1. Przygotować stronę ze wzorami matematycznymi.
@@ -117,9 +185,9 @@ zob. też [Grid Garden](http://cssgridgarden.com/).
 Przykładowe repozytorium z GitHub Pages + MathJax –
 [RedQueen: An Online Algorithm for Smart Broadcasting in Social Networks](http://learning.mpi-sws.org/redqueen/).
 W stopce u dołu strony linki do repozytorium z kodem źródłowym.
+-->
 
 <!--
-
 [Carnegie, Mellon](https://github.com/brendano/ark-tweet-nlp/). [tChat](http://www.cs.cmu.edu/~ark/TweetNLP/).
 
 5\. [GitHub Pages](https://pages.github.com) |
@@ -140,60 +208,24 @@ jeden z frameworków wymienionych poniżej:
 
 -->
 
-<!-- [Repo z rozwiązaniami](https://github.com/wesbos/JavaScript30) -->
+<!--
+#### Inspiracje [WebAssembly](http://webassembly.org/)
+
+. [WebAssembly 101: a developer's first steps](http://blog.openbloc.fr/webassembly-first-steps/)
+. [React](https://facebook.github.io/react/index.html) –
+  . [Getting Started](https://facebook.github.io/react/docs/getting-started.html),
+  . [Tutorial](https://facebook.github.io/react/docs/tutorial.html),
+  . [React for Beginners](https://reactforbeginners.com/).
+-->
 
 
-### Egzamin (projekty zespołowe)
-
-Prezentacje swoich rozwiązań: **28.05** i **11.06.2017**.
-
-Zrealizować kilka projektów ze strony
-[30 Day Vanilla JS Coding Challenge](https://javascript30.com);
-[repo z _starter files_](https://github.com/wesbos/JavaScript30).
-
-Podstawy język JavaScript:
+## JavaScript 2018 → ∞
 
 - Marijn Haverbeke.
   [Eloquent JavaScript](http://eloquentjavascript.net/)
 - Kyle Simpson.
   [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS);
   [polskie tłumaczenia](http://helion.pl/search?szukaj=Simpson)
-- [ES6 Overview in 350 Bullet PointsES6 Overview in 350 Bullet Points](https://github.com/bevacqua/es6/blob/master/readme.markdown)
-
-----
-
-* [100+ Free resources for learning Full Stack Web Development](https://github.com/bmorelli25/Become-A-Full-Stack-Web-Developer).
-
-<!--
-
-Przygotować prostą aplikację WWW korzystając
-z frameworka [Meteor](https://www.meteor.com/). Aplikację
-wdrożyć (ang. _deploy_) na zewnętrznym serwerze.
-
-Zamiast frameworka Meteor można użyć frameworka
-[React](https://facebook.github.io/react/index.html) –
-[Getting Started](https://facebook.github.io/react/docs/getting-started.html),
-[Tutorial](https://facebook.github.io/react/docs/tutorial.html),
-[React for Beginners](https://reactforbeginners.com/).
-
-Użyteczne linki:
-
-- [Meteor](https://www.meteor.com/)
-- David Turnbull.
-  [Your First Meteor Application](http://meteortips.com/book/) –
-  a Complete Beginner’s Guide to the Meteor JavaScript Framework
-- [Discover Meteor](http://book.discovermeteor.com/)
-  ([polskie tłumaczenie](http://pl.discovermeteor.com/))
-- [Creating your first app in React+Meteor](https://www.meteor.com/tutorials/react/creating-an-app)
-
--->
-
-
-## JavaScript 2017 → ∞
-
-[JavaScript in 2015](http://glenmaddern.com/articles/javascript-in-2015)
-([YouTube](https://www.youtube.com/watch?v=iukBMY4apvI)).
-
 - Nicholas C. Zakas.
   [Understanding ECMAScript 6](https://leanpub.com/understandinges6/read/)
 - John Resig.
@@ -214,7 +246,7 @@ ES6+
 – [Minimalist examples of ES6 functionalities](https://github.com/hemanth/paws-on-es6)
 
 
-## CSS
+## CSS3 2018 → ∞
 
 - [Less](http://lesscss.org)
 - [Sass](http://sass-lang.com)
@@ -222,10 +254,3 @@ ES6+
 Small frameworks:
 
 - [Bulma](http://bulma.io/) – Sass based
-
-
-### Różne rzeczy
-
-- [Accelerated Mobile Pages Project](https://www.ampproject.org) – an open source initiative
-  that embodies the vision that publishers can create mobile optimized content once and
-  have it *load instantly everywhere*

@@ -1,0 +1,152 @@
+# Transpiling to ES2016 (ES6)
+
+* http://www.ecma-international.org/memento/TC39.htm[Who decides what gets added?]:
+* https://tc39.github.io/process-document/[Specification stages]:
+** https://github.com/tc39/proposals/blob/master/stage-0-proposals.md[Stage 0 Proposals]
+** https://github.com/tc39/proposals/blob/master/README.md[Stages 1–3 Proposals]
+** https://github.com/tc39/proposals/blob/master/finished-proposals.md[Finished Proposals]
+
+Code for the book
+https://github.com/jisaacks/get-programming-jsnext[Get Programming with JavaScript Next]
+by JD Isaacks
+
+
+## Babel6
+
+* http://babeljs.io/env[babel-preset-es2015 -> babel-preset-env]
+
+[source,sh]
+----
+mkdir babel6-project
+cd babel6-project
+
+npm init -y
+----
+Add _.babelrc_ file:
+[source,json]
+----
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "chrome": "66"
+      }
+    }]
+  ],
+  "sourceMaps": "inline"
+}
+----
+
+Run:
+[source,sh]
+----
+npm install babel-cli --save-dev
+npm install babel-preset-env --save-dev
+----
+Update "script" attribute in _package.json_:
+[source,json]
+----
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "babel": "babel src -d dist"
+},
+----
+
+Create _src/index.js_ file:
+[source,js]
+----
+let foo = "bar";
+----
+Run:
+[source,sh]
+----
+npm run babel
+----
+Check transpiled file _dist/index.js_:
+[source,js]
+----
+"use strict";
+
+let foo = "bar";
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW...
+----
+
+
+## Browserify
+
+[source,sh]
+----
+mkdir browserify-project
+cd browserify-project
+
+npm init -y
+----
+
+Create _.babelrc_ file:
+[source,json]
+----
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "chrome": "66"
+      }
+    }]
+  ],
+  "plugins": ["transform-decorators-legacy"],
+  "sourceMaps": "inline"
+}
+----
+
+Install these packages
+[source,sh]
+----
+npm install babel-preset-env --save-dev
+npm install babel-plugin-transform-decorators-legacy --save-dev
+npm install babel-core --save-dev
+npm install babelify --save-dev
+
+# install globally
+npm install browserify --global
+----
+
+Create _src_ and _dist_ directories:
+[source,sh]
+----
+mkdir src dist
+touch src/{index,app}.js
+----
+
+Add code to _app.js_ and _index.js_.
+[source,js]
+.src/app.js
+----
+const MyModule = {
+  check() {
+    console.log('Yaj! Modules are working!');
+  }
+}
+export default MyModule;
+----
+[source,js]
+.src/index.js
+----
+import MyModule from './app';
+MyModule.check();
+----
+
+Run _browserify_:
+[source,sh]
+----
+browserify src/index.js --transform babelify --outfile dist/bundle.js --debug
+----
+
+Test:
+[source,sh]
+----
+node dist/bundle.js
+
+npm install serve --global
+serve
+# open index.html in Chrome +v66; check what was written on console
+----
